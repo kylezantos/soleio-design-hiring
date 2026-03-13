@@ -27,14 +27,41 @@ Enriched with real case studies: Tom Johnson's cold-DM-to-Vercel pipeline, Profo
 
 ## Install
 
-Drop the `SKILL.md` file into your Claude Code skills directory:
+### One command (all agents)
 
 ```bash
-# Clone into your skills directory
-git clone https://github.com/kylezantos/soleio-design-hiring.git ~/.claude/skills/soleio-design-hiring
+npx skills add kylezantos/soleio-design-hiring
 ```
 
-Or copy `SKILL.md` manually into `~/.claude/skills/soleio-design-hiring/SKILL.md`.
+Auto-detects your installed agents and installs to each. Works with Claude Code, Codex, OpenClaw, Cursor, Gemini CLI, Windsurf, OpenCode, and [35+ more](https://github.com/vercel-labs/skills).
+
+### Target specific agents
+
+```bash
+npx skills add kylezantos/soleio-design-hiring -a claude-code
+npx skills add kylezantos/soleio-design-hiring -a codex -a openclaw
+```
+
+### Manual install
+
+Copy `SKILL.md` into your agent's skills directory:
+
+| Agent | Path |
+|-------|------|
+| Claude Code | `~/.claude/skills/soleio-design-hiring/` |
+| Codex | `~/.codex/skills/soleio-design-hiring/` |
+| OpenClaw | `~/.openclaw/skills/soleio-design-hiring/` |
+| Cursor | `~/.cursor/skills/soleio-design-hiring/` |
+| Gemini CLI | `~/.gemini/skills/soleio-design-hiring/` |
+| Windsurf | `~/.codeium/windsurf/skills/soleio-design-hiring/` |
+| OpenCode | `~/.config/opencode/skills/soleio-design-hiring/` |
+| Perplexity Computer | Add via the Skills UI in the Computer tab (SKILL.md compatible) |
+
+Or clone:
+
+```bash
+git clone https://github.com/kylezantos/soleio-design-hiring.git ~/.claude/skills/soleio-design-hiring
+```
 
 ## Usage
 
