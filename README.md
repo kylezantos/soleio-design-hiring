@@ -1,6 +1,6 @@
 # Soleio's Design Talent Playbook
 
-A [Claude Code](https://claude.ai/claude-code) skill that turns [Soleio Cuervo's design sourcing framework](https://x.com/soleio/status/2032284102322495604) into an interactive strategy tool.
+An agent skill that turns [Soleio's design sourcing framework](https://x.com/soleio/status/2032284102322495604) into an interactive strategy tool.
 
 Two modes. One framework.
 
@@ -74,4 +74,4 @@ git clone https://github.com/kylezantos/soleio-design-hiring.git ~/.claude/skill
 
 ## Attribution
 
-Based on [Soleio Cuervo's sourcing framework](https://x.com/soleio/status/2032284102322495604), March 2026. Enriched with context from [Tom Johnson](https://x.com/tomjohndesign/status/1990811892139372899), [Julie Zhuo](https://x.com/joulee/status/1952386829287899374), [Profound](https://www.tryprofound.com/design), and [Notion](https://x.com/NotionHQ/status/1105905796095696897).
+Based on [Soleio's sourcing framework](https://x.com/soleio/status/2032284102322495604), March 2026. Enriched with context from [Tom Johnson](https://x.com/tomjohndesign/status/1990811892139372899), [Julie Zhuo](https://x.com/joulee/status/1952386829287899374), [Profound](https://www.tryprofound.com/design), and [Notion](https://x.com/NotionHQ/status/1105905796095696897).
